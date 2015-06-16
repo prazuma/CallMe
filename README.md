@@ -1,4 +1,4 @@
-FindMyPhone Copy(CallMe)
+FindMyPhone Copy(CallMe!)
 ===================================
 
 This sample application notifies you when you may have left your phone behind
