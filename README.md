@@ -1,5 +1,5 @@
 
-Android FindMyPhone Sample
+FindMyPhone Copy
 ===================================
 
 This sample application notifies you when you may have left your phone behind
