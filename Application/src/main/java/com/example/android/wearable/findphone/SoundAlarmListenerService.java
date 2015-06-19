@@ -85,7 +85,7 @@ public class SoundAlarmListenerService extends WearableListenerService {
                     } catch (IOException e) {
                         Log.e(TAG, "Failed to prepare media player to play alarm.", e);
                     }
-                    mMediaPlayer.start();
+                    mMediaPlayer.start();//MadiaPlaye始まり。おそらくここでアラームを鳴らしている
                 } else {
                     // Reset the alarm volume to the user's original setting.
                     mAudioManager.setStreamVolume(AudioManager.STREAM_ALARM, mOrigVolume, 0);
