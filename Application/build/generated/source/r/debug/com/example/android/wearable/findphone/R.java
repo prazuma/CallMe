@@ -9,7 +9,7 @@ package com.example.android.wearable.findphone;
 
 public final class R {
     public static final class array {
-        public static final int android_wear_capabilities=0x7f030000;
+        public static final int android_wear_capabilities=0x7f040000;
     }
     public static final class attr {
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
@@ -147,34 +147,34 @@ containing a value of this type.
         public static final int imageAspectRatioAdjust=0x7f01000b;
     }
     public static final class color {
-        public static final int cardview_dark_background=0x7f040000;
-        public static final int cardview_light_background=0x7f040001;
-        public static final int cardview_shadow_end_color=0x7f040002;
-        public static final int cardview_shadow_start_color=0x7f040003;
-        public static final int common_action_bar_splitter=0x7f040004;
-        public static final int common_signin_btn_dark_text_default=0x7f040005;
-        public static final int common_signin_btn_dark_text_disabled=0x7f040006;
-        public static final int common_signin_btn_dark_text_focused=0x7f040007;
-        public static final int common_signin_btn_dark_text_pressed=0x7f040008;
-        public static final int common_signin_btn_default_background=0x7f040009;
-        public static final int common_signin_btn_light_text_default=0x7f04000a;
-        public static final int common_signin_btn_light_text_disabled=0x7f04000b;
-        public static final int common_signin_btn_light_text_focused=0x7f04000c;
-        public static final int common_signin_btn_light_text_pressed=0x7f04000d;
-        public static final int common_signin_btn_text_dark=0x7f04000e;
-        public static final int common_signin_btn_text_light=0x7f04000f;
+        public static final int cardview_dark_background=0x7f050000;
+        public static final int cardview_light_background=0x7f050001;
+        public static final int cardview_shadow_end_color=0x7f050002;
+        public static final int cardview_shadow_start_color=0x7f050003;
+        public static final int common_action_bar_splitter=0x7f050004;
+        public static final int common_signin_btn_dark_text_default=0x7f050005;
+        public static final int common_signin_btn_dark_text_disabled=0x7f050006;
+        public static final int common_signin_btn_dark_text_focused=0x7f050007;
+        public static final int common_signin_btn_dark_text_pressed=0x7f050008;
+        public static final int common_signin_btn_default_background=0x7f050009;
+        public static final int common_signin_btn_light_text_default=0x7f05000a;
+        public static final int common_signin_btn_light_text_disabled=0x7f05000b;
+        public static final int common_signin_btn_light_text_focused=0x7f05000c;
+        public static final int common_signin_btn_light_text_pressed=0x7f05000d;
+        public static final int common_signin_btn_text_dark=0x7f05000e;
+        public static final int common_signin_btn_text_light=0x7f05000f;
     }
     public static final class dimen {
-        public static final int cardview_compat_inset_shadow=0x7f050000;
-        public static final int cardview_default_elevation=0x7f050001;
-        public static final int cardview_default_radius=0x7f050002;
-        public static final int horizontal_page_margin=0x7f050003;
-        public static final int margin_huge=0x7f050004;
-        public static final int margin_large=0x7f050005;
-        public static final int margin_medium=0x7f050006;
-        public static final int margin_small=0x7f050007;
-        public static final int margin_tiny=0x7f050008;
-        public static final int vertical_page_margin=0x7f050009;
+        public static final int cardview_compat_inset_shadow=0x7f060000;
+        public static final int cardview_default_elevation=0x7f060001;
+        public static final int cardview_default_radius=0x7f060002;
+        public static final int horizontal_page_margin=0x7f060003;
+        public static final int margin_huge=0x7f060004;
+        public static final int margin_large=0x7f060005;
+        public static final int margin_medium=0x7f060006;
+        public static final int margin_small=0x7f060007;
+        public static final int margin_tiny=0x7f060008;
+        public static final int vertical_page_margin=0x7f060009;
     }
     public static final class drawable {
         public static final int common_full_open_on_phone=0x7f020000;
@@ -211,58 +211,66 @@ containing a value of this type.
         public static final int tile=0x7f02001f;
     }
     public static final class id {
-        public static final int adjust_height=0x7f090000;
-        public static final int adjust_width=0x7f090001;
-        public static final int none=0x7f090002;
+        public static final int action_start_oauth=0x7f0a0003;
+        public static final int adjust_height=0x7f0a0000;
+        public static final int adjust_width=0x7f0a0001;
+        public static final int none=0x7f0a0002;
     }
     public static final class integer {
-        public static final int google_play_services_version=0x7f060000;
+        public static final int google_play_services_version=0x7f070000;
+    }
+    public static final class layout {
+        public static final int activity_twitter_oauth=0x7f030000;
     }
     public static final class string {
-        public static final int app_name=0x7f070000;
-        public static final int common_android_wear_notification_needs_update_text=0x7f070001;
-        public static final int common_android_wear_update_text=0x7f070002;
-        public static final int common_android_wear_update_title=0x7f070003;
-        public static final int common_google_play_services_enable_button=0x7f070004;
-        public static final int common_google_play_services_enable_text=0x7f070005;
-        public static final int common_google_play_services_enable_title=0x7f070006;
-        public static final int common_google_play_services_error_notification_requested_by_msg=0x7f070007;
-        public static final int common_google_play_services_install_button=0x7f070008;
-        public static final int common_google_play_services_install_text_phone=0x7f070009;
-        public static final int common_google_play_services_install_text_tablet=0x7f07000a;
-        public static final int common_google_play_services_install_title=0x7f07000b;
-        public static final int common_google_play_services_invalid_account_text=0x7f07000c;
-        public static final int common_google_play_services_invalid_account_title=0x7f07000d;
-        public static final int common_google_play_services_needs_enabling_title=0x7f07000e;
-        public static final int common_google_play_services_network_error_text=0x7f07000f;
-        public static final int common_google_play_services_network_error_title=0x7f070010;
-        public static final int common_google_play_services_notification_needs_installation_title=0x7f070011;
-        public static final int common_google_play_services_notification_needs_update_title=0x7f070012;
-        public static final int common_google_play_services_notification_ticker=0x7f070013;
-        public static final int common_google_play_services_sign_in_failed_text=0x7f070014;
-        public static final int common_google_play_services_sign_in_failed_title=0x7f070015;
-        public static final int common_google_play_services_unknown_issue=0x7f070016;
-        public static final int common_google_play_services_unsupported_text=0x7f070017;
-        public static final int common_google_play_services_unsupported_title=0x7f070018;
-        public static final int common_google_play_services_update_button=0x7f070019;
-        public static final int common_google_play_services_update_text=0x7f07001a;
-        public static final int common_google_play_services_update_title=0x7f07001b;
-        public static final int common_open_on_phone=0x7f07001c;
-        public static final int common_signin_button_text=0x7f07001d;
-        public static final int common_signin_button_text_long=0x7f07001e;
-        public static final int commono_google_play_services_api_unavailable_text=0x7f07001f;
-        public static final int intro_message=0x7f070020;
+        public static final int app_name=0x7f080000;
+        public static final int common_android_wear_notification_needs_update_text=0x7f080001;
+        public static final int common_android_wear_update_text=0x7f080002;
+        public static final int common_android_wear_update_title=0x7f080003;
+        public static final int common_google_play_services_enable_button=0x7f080004;
+        public static final int common_google_play_services_enable_text=0x7f080005;
+        public static final int common_google_play_services_enable_title=0x7f080006;
+        public static final int common_google_play_services_error_notification_requested_by_msg=0x7f080007;
+        public static final int common_google_play_services_install_button=0x7f080008;
+        public static final int common_google_play_services_install_text_phone=0x7f080009;
+        public static final int common_google_play_services_install_text_tablet=0x7f08000a;
+        public static final int common_google_play_services_install_title=0x7f08000b;
+        public static final int common_google_play_services_invalid_account_text=0x7f08000c;
+        public static final int common_google_play_services_invalid_account_title=0x7f08000d;
+        public static final int common_google_play_services_needs_enabling_title=0x7f08000e;
+        public static final int common_google_play_services_network_error_text=0x7f08000f;
+        public static final int common_google_play_services_network_error_title=0x7f080010;
+        public static final int common_google_play_services_notification_needs_installation_title=0x7f080011;
+        public static final int common_google_play_services_notification_needs_update_title=0x7f080012;
+        public static final int common_google_play_services_notification_ticker=0x7f080013;
+        public static final int common_google_play_services_sign_in_failed_text=0x7f080014;
+        public static final int common_google_play_services_sign_in_failed_title=0x7f080015;
+        public static final int common_google_play_services_unknown_issue=0x7f080016;
+        public static final int common_google_play_services_unsupported_text=0x7f080017;
+        public static final int common_google_play_services_unsupported_title=0x7f080018;
+        public static final int common_google_play_services_update_button=0x7f080019;
+        public static final int common_google_play_services_update_text=0x7f08001a;
+        public static final int common_google_play_services_update_title=0x7f08001b;
+        public static final int common_open_on_phone=0x7f08001c;
+        public static final int common_signin_button_text=0x7f08001d;
+        public static final int common_signin_button_text_long=0x7f08001e;
+        public static final int commono_google_play_services_api_unavailable_text=0x7f08001f;
+        public static final int intro_message=0x7f080020;
+        public static final int twitter_callback_url=0x7f080021;
+        public static final int twitter_consumer_key=0x7f080022;
+        public static final int twitter_consumer_secret=0x7f080023;
+        public static final int twitter_oauth=0x7f080024;
     }
     public static final class style {
-        public static final int AppTheme=0x7f080000;
-        public static final int CardView=0x7f080001;
-        public static final int CardView_Dark=0x7f080002;
-        public static final int CardView_Light=0x7f080003;
-        public static final int Theme_Base=0x7f080004;
-        public static final int Theme_Sample=0x7f080005;
-        public static final int Widget=0x7f080006;
-        public static final int Widget_SampleMessage=0x7f080007;
-        public static final int Widget_SampleMessageTile=0x7f080008;
+        public static final int AppTheme=0x7f090000;
+        public static final int CardView=0x7f090001;
+        public static final int CardView_Dark=0x7f090002;
+        public static final int CardView_Light=0x7f090003;
+        public static final int Theme_Base=0x7f090004;
+        public static final int Theme_Sample=0x7f090005;
+        public static final int Widget=0x7f090006;
+        public static final int Widget_SampleMessage=0x7f090007;
+        public static final int Widget_SampleMessageTile=0x7f090008;
     }
     public static final class styleable {
         /** Attributes that can be used with a CardView.

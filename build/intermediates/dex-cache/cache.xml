@@ -9,6 +9,34 @@
         <dex dex="/Users/hashimotomika/AndroidStudioProjects/CallMe/Wearable/build/intermediates/pre-dexed/release/internal_impl-22.1.0-1c13934d3fd6ae79111324f6a1cabd69cfc0a1f0.jar" />
     </item>
     <item
+        jar="/Users/hashimotomika/AndroidStudioProjects/CallMe/libraries/twitter4j-core-4.0.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="cb244e5be126bf0a8114c8a64a5d26c6490b9ef2">
+        <dex dex="/Users/hashimotomika/AndroidStudioProjects/CallMe/Application/build/intermediates/pre-dexed/debug/twitter4j-core-4.0.3-5e207121a627adf6bfe67b11bfb18f0a988e0775.jar" />
+    </item>
+    <item
+        jar="/Users/hashimotomika/AndroidStudioProjects/CallMe/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b017100da14f9c158c9f5f2f508333c224b24a7c">
+        <dex dex="/Users/hashimotomika/AndroidStudioProjects/CallMe/Application/build/intermediates/pre-dexed/debug/classes-a9de908e5a37d655757941796a4ed5652b94ef93.jar" />
+    </item>
+    <item
+        jar="/Users/hashimotomika/AndroidStudioProjects/CallMe/libraries/mail.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="/Users/hashimotomika/AndroidStudioProjects/CallMe/Application/build/intermediates/pre-dexed/debug/mail-5c899d03de1e11594800b9b28711615d83da4ec5.jar" />
+    </item>
+    <item
+        jar="/Users/hashimotomika/AndroidStudioProjects/CallMe/libraries/activation.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="/Users/hashimotomika/AndroidStudioProjects/CallMe/Application/build/intermediates/pre-dexed/debug/activation-7ded2339ac6eb59a3a56972d817100bffc122fed.jar" />
+    </item>
+    <item
         jar="/Users/hashimotomika/AndroidStudioProjects/CallMe/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/1.2.0/classes.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -16,11 +44,32 @@
         <dex dex="/Users/hashimotomika/AndroidStudioProjects/CallMe/Wearable/build/intermediates/pre-dexed/release/classes-d912ec210b91524692c24807989a298f7295c58b.jar" />
     </item>
     <item
+        jar="/Users/hashimotomika/AndroidStudioProjects/CallMe/Application/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.0/libs/internal_impl-22.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="025cb89f2896c63200ff4c2e6c467a95691d880a">
+        <dex dex="/Users/hashimotomika/AndroidStudioProjects/CallMe/Application/build/intermediates/pre-dexed/debug/internal_impl-22.1.0-11879b51b294905081166eddb7b2857827236380.jar" />
+    </item>
+    <item
+        jar="/Users/hashimotomika/AndroidStudioProjects/CallMe/Application/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="eeebabdfd8203f6ab639ccea4ffa1f20e1adee3a">
+        <dex dex="/Users/hashimotomika/AndroidStudioProjects/CallMe/Application/build/intermediates/pre-dexed/debug/classes-b750d6fafb3ac2693a327ea6a4296916e5a3106d.jar" />
+    </item>
+    <item
         jar="/Users/hashimotomika/AndroidStudioProjects/CallMe/Wearable/build/intermediates/exploded-aar/com.android.support/support-v13/22.1.0/libs/internal_impl-22.1.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="50c645d80504c40e34e6bb88360b9a5c1df99b0b">
         <dex dex="/Users/hashimotomika/AndroidStudioProjects/CallMe/Wearable/build/intermediates/pre-dexed/release/internal_impl-22.1.0-cdedb96d82fd3e6647651d7281f6b30c2d8722d9.jar" />
+    </item>
+    <item
+        jar="/Users/hashimotomika/AndroidStudioProjects/CallMe/Application/build/intermediates/exploded-aar/com.android.support/support-v13/22.1.0/libs/internal_impl-22.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="50c645d80504c40e34e6bb88360b9a5c1df99b0b">
+        <dex dex="/Users/hashimotomika/AndroidStudioProjects/CallMe/Application/build/intermediates/pre-dexed/debug/internal_impl-22.1.0-382aa83fcf81a4b3e04b5169f9228dbfb361d147.jar" />
     </item>
     <item
         jar="/Users/hashimotomika/AndroidStudioProjects/CallMe/Wearable/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.0/classes.jar"
@@ -37,13 +86,6 @@
         <dex dex="/Users/hashimotomika/AndroidStudioProjects/CallMe/Wearable/build/intermediates/pre-dexed/release/classes-0987ff6b1885c37a913d5b68a8abfb190b607594.jar" />
     </item>
     <item
-        jar="/Users/hashimotomika/AndroidStudioProjects/CallMe/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.3.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="e5bf453b070c1e39297986144960e45afa0fdfad">
-        <dex dex="/Users/hashimotomika/AndroidStudioProjects/CallMe/Wearable/build/intermediates/pre-dexed/release/classes-ce29f4ec73b06c0a52c3fdbb921e1b421178d1bc.jar" />
-    </item>
-    <item
         jar="/Users/hashimotomika/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.0/support-annotations-22.1.0.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -51,11 +93,46 @@
         <dex dex="/Users/hashimotomika/AndroidStudioProjects/CallMe/Wearable/build/intermediates/pre-dexed/release/support-annotations-22.1.0-0d83e53d75a4df972f4de2f47a6a5724ec968303.jar" />
     </item>
     <item
+        jar="/Users/hashimotomika/AndroidStudioProjects/CallMe/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e5bf453b070c1e39297986144960e45afa0fdfad">
+        <dex dex="/Users/hashimotomika/AndroidStudioProjects/CallMe/Wearable/build/intermediates/pre-dexed/release/classes-ce29f4ec73b06c0a52c3fdbb921e1b421178d1bc.jar" />
+    </item>
+    <item
+        jar="/Users/hashimotomika/AndroidStudioProjects/CallMe/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e5bf453b070c1e39297986144960e45afa0fdfad">
+        <dex dex="/Users/hashimotomika/AndroidStudioProjects/CallMe/Application/build/intermediates/pre-dexed/debug/classes-a5a2e2798aa4f16e7fd1db1f1ff152517fb5175b.jar" />
+    </item>
+    <item
         jar="/Users/hashimotomika/AndroidStudioProjects/CallMe/Wearable/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="c6d79137693d494dee16372d3921f919eb724ced">
         <dex dex="/Users/hashimotomika/AndroidStudioProjects/CallMe/Wearable/build/intermediates/pre-dexed/release/classes-689e4ca009b1bba7f92597c47c333fb53b5b8f95.jar" />
+    </item>
+    <item
+        jar="/Users/hashimotomika/AndroidStudioProjects/CallMe/Application/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f2f7ec211ce4d244ee97a57523eeb4526dc3cf8a">
+        <dex dex="/Users/hashimotomika/AndroidStudioProjects/CallMe/Application/build/intermediates/pre-dexed/debug/classes-faf590f370e7e82fda94544c364f51f56598131b.jar" />
+    </item>
+    <item
+        jar="/Users/hashimotomika/AndroidStudioProjects/CallMe/Application/build/intermediates/exploded-aar/com.android.support/support-v13/22.1.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b6f3fd41dae8c43531192af02ddf5429a1c44446">
+        <dex dex="/Users/hashimotomika/AndroidStudioProjects/CallMe/Application/build/intermediates/pre-dexed/debug/classes-8c31caa942a8a07c0564794c5949e07369c24d83.jar" />
+    </item>
+    <item
+        jar="/Users/hashimotomika/AndroidStudioProjects/CallMe/libraries/additionnal.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="/Users/hashimotomika/AndroidStudioProjects/CallMe/Application/build/intermediates/pre-dexed/debug/additionnal-d9ecfb71131599f8b7929796a1848b7463947a09.jar" />
     </item>
     <item
         jar="/Users/hashimotomika/AndroidStudioProjects/CallMe/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/classes.jar"

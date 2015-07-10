@@ -16,10 +16,13 @@
 
 package com.example.android.wearable.findphone;
 
+import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.media.RingtoneManager;
 import android.net.Uri;
+import android.os.AsyncTask;
 import android.util.Log;
 
 import com.google.android.gms.wearable.DataEvent;
@@ -28,6 +31,25 @@ import com.google.android.gms.wearable.DataMap;
 import com.google.android.gms.wearable.WearableListenerService;
 
 import java.io.IOException;
+import java.net.Authenticator;
+import java.util.Properties;
+
+import javax.mail.Message;
+import javax.mail.MessageRemovedException;
+import javax.mail.MessagingException;
+import javax.mail.MessagingException;
+import javax.mail.PasswordAuthentication;
+import javax.mail.Session;
+import javax.mail.Transport;
+import javax.mail.internet.AddressException;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeMessage;
+
+import twitter4j.Twitter;
+import twitter4j.TwitterException;
+import twitter4j.auth.AccessToken;
+import twitter4j.auth.RequestToken;
+
 
 /**
  * Listens for disconnection from home device.
@@ -44,6 +66,10 @@ public class SoundAlarmListenerService extends WearableListenerService {
     private Uri mAlarmSound;
     private MediaPlayer mMediaPlayer;
 
+    private String mCallbackURL;
+    private Twitter mTwitter;
+    private RequestToken mRequestToken;
+
     @Override
     public void onCreate() {
         super.onCreate();
@@ -52,6 +78,10 @@ public class SoundAlarmListenerService extends WearableListenerService {
         mMaxVolume = mAudioManager.getStreamMaxVolume(AudioManager.STREAM_ALARM);
         mAlarmSound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM);
         mMediaPlayer = new MediaPlayer();
+        if(!TwitterUtils.hasAccessToken(this)){
+            Intent intent = new Intent(this, TwitterOAuthActivity.class);
+            startActivity(intent);
+        }
     }
 
     @Override
@@ -64,6 +94,10 @@ public class SoundAlarmListenerService extends WearableListenerService {
 
     @Override
     public void onDataChanged(DataEventBuffer dataEvents) {
+        /*
+        Intent intent = new Intent(this, Tweet.class);
+        startActivity(intent);
+*/
         if (Log.isLoggable(TAG, Log.DEBUG)) {
             Log.d(TAG, "onDataChanged: " + dataEvents + " for " + getPackageName());
         }
@@ -85,7 +119,10 @@ public class SoundAlarmListenerService extends WearableListenerService {
                     } catch (IOException e) {
                         Log.e(TAG, "Failed to prepare media player to play alarm.", e);
                     }
+
+                    //mail.send();メール送信できなかったけど、twitteでここにかければ行けそうな気がするよ
                     mMediaPlayer.start();//MadiaPlaye始まり。おそらくここでアラームを鳴らしている
+
                 } else {
                     // Reset the alarm volume to the user's original setting.
                     mAudioManager.setStreamVolume(AudioManager.STREAM_ALARM, mOrigVolume, 0);

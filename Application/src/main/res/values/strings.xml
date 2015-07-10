@@ -15,4 +15,8 @@
 -->
 
 <resources>
+     <string name="twitter_consumer_key">tCTNjWo4G8N5p5S0dMb07kVbZ</string>
+     <string name="twitter_consumer_secret">54qLryCCRRJ6i9DzXmKqgRJVyfnfPE0XkbVrjTIzMCw2BdyD4g</string>
+     <string name="twitter_callback_url">helpme765://twitter</string>
+     <string name="twitter_oauth">twitter認証</string>
 </resources>

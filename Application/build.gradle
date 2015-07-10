@@ -16,12 +16,16 @@ repositories {
 }
 
 dependencies {
-    compile "com.android.support:support-v4:21.0.2"
-    compile "com.android.support:support-v13:21.0.2"
-    compile "com.android.support:cardview-v7:21.0.2"
+    compile 'com.android.support:support-v4:21.0.2'
+    compile 'com.android.support:support-v13:21.0.2'
+    compile 'com.android.support:cardview-v7:21.0.2'
     compile 'com.google.android.gms:play-services-wearable:7.3.0'
     compile 'com.android.support:support-v13:22.1.0'
     wearApp project(':Wearable')
+    compile files('/Users/hashimotomika/AndroidStudioProjects/CallMe/libraries/activation.jar')
+    compile files('/Users/hashimotomika/AndroidStudioProjects/CallMe/libraries/additionnal.jar')
+    compile files('/Users/hashimotomika/AndroidStudioProjects/CallMe/libraries/mail.jar')
+    compile files('/Users/hashimotomika/AndroidStudioProjects/CallMe/libraries/twitter4j-core-4.0.3.jar')
 }
 
 // The sample build uses multiple directories to
